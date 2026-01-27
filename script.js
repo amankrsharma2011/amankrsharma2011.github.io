@@ -1,3 +1,4 @@
 var url = new URLSearchParams(window.location.search);
 var name = url.get("username");
-document.getElementByld("text").innerText = "Hello " + name;
+var place = url.get("continent")
+document.getElementByld("result").innerText = "So, your name is " + name + " and you are from " + place + ".";
