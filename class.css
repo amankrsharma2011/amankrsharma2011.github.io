@@ -1,9 +1,6 @@
 body{
-   background-color:rgb(230, 230, 230);
+   background-color:"rgb(230, 230, 230)";
 }
 #id1{
-  text-align:center;
-}
-#id2{
   text-align:center;
 }
